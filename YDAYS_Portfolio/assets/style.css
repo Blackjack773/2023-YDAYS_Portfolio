@@ -1,3 +1,15 @@
+@media only screen and (min-width: 428px) {}
+
+
+@font-face {
+  font-family: hiro;
+  src: url("../assets/hiro_misake/HIROMISAKE.ttf")
+}
+
+p {
+  font-family: hiro, sans-serif;
+}
+
 
 .bg {
   position: fixed; 
@@ -128,7 +140,6 @@ a {
   left: 380px;
   bottom: 245px;
   
-  font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -184,7 +195,6 @@ a {
   left: 285px;
   bottom: 245px;
   
-  font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -223,11 +233,10 @@ a {
 
 .gotchi {
   position: absolute;
-  width: 600px;
+  width: auto;
   height: 83px;
   left: 80px;
   top: 260px;
-  font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -243,7 +252,6 @@ a {
   height: 70px;
   right: 125px;
   top: 128px;
-  font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -253,13 +261,21 @@ a {
   text-align: center;
 }
 
+.sc {
+  display: flex;
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  bottom: 180px;
+  left: 350px;
+}
+
 .program {
   position: absolute;
   width: 600px;
   height: 83px;
   left: 50px;
   bottom: 20px;
-  font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -274,8 +290,8 @@ a {
   position: absolute;
   width: 70px;
   height: 77px;
-  bottom: 75px;
-  left: 315px;
+  bottom: 65px;
+  left: 355px;
 }
 
 .secondlang {
@@ -283,6 +299,6 @@ a {
   position: absolute;
   width: 70px;
   height: 77px;
-  bottom: 75px;
-  left: 415px;
+  bottom: 65px;
+  left: 455px;
 }
