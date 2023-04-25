@@ -1,3 +1,4 @@
+
 .bg {
   position: fixed; 
   top: 0; 
@@ -107,6 +108,7 @@ a {
   height: 36px;
   top: 40px;
   left: 60px;
+  cursor: pointer;
 }
 
 .Me {
@@ -233,4 +235,54 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+.description {
+  position: absolute;
+  width: 450px;
+  height: 70px;
+  right: 125px;
+  top: 128px;
+  font-family: 'Kiwi Maru';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.program {
+  position: absolute;
+  width: 600px;
+  height: 83px;
+  left: 50px;
+  bottom: 20px;
+  font-family: 'Kiwi Maru';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 93px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.firstlang {
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 77px;
+  bottom: 75px;
+  left: 315px;
+}
+
+.secondlang {
+  display: flex;
+  position: absolute;
+  width: 70px;
+  height: 77px;
+  bottom: 75px;
+  left: 415px;
 }
